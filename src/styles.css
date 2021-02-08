@@ -1,0 +1,145 @@
+
+.banderas{
+  width:80px;
+  height:80px;
+  margin:20px;
+ box-sizing:border-box; 
+   text-align:initial;
+display:block;
+  	border:1px solid rgb(255, 82, 3);
+ padding: 5px 5px 5px;
+ position:relative;
+}
+
+body {
+    background-color: #e6e0e0;
+ 
+    text-align: center;
+padding: 5px 5px 5px 5px ;
+ box-sizing:border-box; 
+border-radius: 25px;
+
+
+  color: #202020;
+width: 100%;
+margin:3px ;
+
+font-size:arial;
+background-color:rgb(240, 237, 234);
+color:#000;
+}
+.title { text-align:left;
+  color:rgb(36, 36, 36);
+   
+  }
+  .text { 
+    text-align:center;
+  color:rgb(36, 36, 36);
+   font-size: arial;
+   margin:10px;
+   padding: 3px 3px 3px 3px;
+ 
+  }
+   .result { 
+    text-align:center;
+  color:rgb(36, 36, 36);
+   font-size: 10px;
+   
+   padding: 3px 3px 3px 3px;
+ width: 100%;
+  }
+  
+select {
+  margin: 5px;
+  width: 170px;
+  padding: 5px 35px 5px 5px;
+  font-size: 20px;
+  border: 2px solid rgb(3, 78, 78);;
+  height: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://www.flaticon.es/svg/vstatic/svg/152/152415.svg?token=exp=1612624744~hmac=e100ab1ad278cef6feadb5898fce3164) 80% / 7% no-repeat rgb(236, 111, 8);
+}
+
+/* CAUTION: IE hackery ahead */
+select::-ms-expand { 
+    display: none; /* remove default arrow on ie10 and ie11 */
+}
+
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select {
+        background:none\9;
+        padding: 5px\9;
+    } 
+}
+input {
+  margin: 0;
+  width: 170px;
+  padding: 5px 35px 5px 5px;
+  font-size: 27px;
+  border: 2px solid rgb(3, 78, 78);;
+  height: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+ text-align: left;
+}
+
+/* CAUTION: IE hackery ahead */
+input::-ms-expand { 
+    display: none; /* remove default arrow on ie10 and ie11 */
+}
+
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+   input {
+        background:none\9;
+        padding: 1px\9;
+    } 
+}
+
+.input  {
+ box-sizing:border-box;
+       color: rgb(3, 78, 78);
+    border: 1px solid #e6e6e6;
+     border-radius: 5px ;
+  background-color: rgb(255, 255, 255);
+  box-sizing: content-box #ffffff;
+ box-shadow: 2px 1px rgb(179, 179, 179);
+  width: 260px;
+    text-align: center;
+    display:inline;
+    
+    
+ }
+.moneda {
+  border-radius: 7px; 
+   width:100%;
+   margin: 0;
+   text-align: center;
+   box-shadow: 1px 2px 2px 2px rgb(179, 179, 179);
+   background-color: rgb(243, 243, 243);
+  box-sizing:border-box #b3b2b2; 
+ color: #202020;
+ font-size:arial;
+
+color:rgb(3, 78, 78);
+  }
+  .rates {
+  border-radius: 7px;   
+  box-shadow: 1px 2px 2px 2px rgb(179, 179, 179);
+  width:70px;
+  height:70px;
+  margin:20px;
+  box-sizing:border-box; 
+   text-align:center;
+   display:inline-block;
+   
+   padding: 1px;
+  color: #ffffff;
+ 
+   background-color:rgb(7, 63, 63);
+
+  }
